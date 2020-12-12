@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnImgSelection"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Image Selection"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnRecycleView"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="RecycleView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnImgSelection" />
+
+            <Button
+                android:id="@+id/btnTabLayout"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Tab Layout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnRecycleView" />
+
+            <Switch
+                android:id="@+id/switchDarkMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="DarkMode"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnTabLayout" />
+
+            <Button
+                android:id="@+id/btnNotification"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Show Notification"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/switchDarkMode" />
+
+            <Button
+                android:id="@+id/btnPdf"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Create PDF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.218"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnNotification" />
+
+            <Button
+                android:id="@+id/btnPlayMusic"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Play Music"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnPdf" />
+
+            <Button
+                android:id="@+id/btnUpdateApp"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="App Update"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnPlayMusic" />
+
+            <Button
+                android:id="@+id/btnFingerprintAuth"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Fingerprint Auth"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnUpdateApp" />
+
+            <Button
+                android:id="@+id/btnCustomView"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Draw Custom View"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnFingerprintAuth" />
+
+            <Button
+                android:id="@+id/btnCreateZip"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Create Files and Zip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnCustomView" />
+
+            <Button
+                android:id="@+id/btnCreateUnZip"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Un Zip Files"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnCreateZip" />
+
+            <Button
+                android:id="@+id/btnJobScheduler"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Job Scheduler"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnCreateUnZip" />
+
+
+            <Button
+                android:id="@+id/btnWorkmanager"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Work Manager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnJobScheduler" />
+
+            <Button
+                android:id="@+id/btnAlarm"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Set Alarm"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnWorkmanager" />
+
+
+            <Button
+                android:id="@+id/btnWordlClock"
+                style="@style/styButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Get Time (World Clock)"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnWorkmanager" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

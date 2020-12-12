@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margintTop">16dp</dimen>
+    <dimen name="margintLeft">16dp</dimen>
+    <dimen name="margintRight">16dp</dimen>
+
+    <dimen name="margintBottom">16dp</dimen>
+    
+    <dimen name="min_height">48dp</dimen>
+    <dimen name="big_padding">16dp</dimen>
+</resources>
